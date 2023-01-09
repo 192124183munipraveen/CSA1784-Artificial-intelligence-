@@ -1,0 +1,26 @@
+def add(x,y):
+    c=x+y
+    return c
+def sub(x,y):
+    c=x-y
+    return c
+def mul(x,y):
+    c=x*y
+    return c
+def divi(x,y):
+    c=x/y
+    return c
+while True:
+    a=float(input("enter the first number:"))
+    b=float(input("enter the second number:"))
+    ch=input("enter the choice[+,-,*,/]:")
+    if ch=="+":
+         print("the added value ",add(a,b))
+    elif ch=="-":
+         print("the sub value ",sub(a,b))
+    elif ch=="*":
+         print("the mul value ",mul(a,b))
+    elif ch=="/":
+         print("the divi value ",divi(a,b))
+    else:
+         print("invalid:")
